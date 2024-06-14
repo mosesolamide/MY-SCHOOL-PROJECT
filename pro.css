@@ -1,0 +1,52 @@
+/* beginning of css of dashboard */
+.but{
+    margin-left: 29%;
+    margin-top: 8%;
+    color: white;
+}
+
+button{
+    width: 70%;
+    text-align: left;
+    font-size: xx-large;
+    background-color: transparent;
+    color:white;
+    font-family: ' Arial, sans-serif';
+    
+  }
+  .body{
+    background-image:linear-gradient(rgb(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(discovery-primary-school-milton-wa.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* beginning of css for admission */
+.on{
+    width: 300px;
+    height: 25px;
+    
+}
+/* css for about */
+.header_text{
+    background-color:blue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+.header_text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.our{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+}
+/* buttons */
+.bu{
+    margin-right: 29%;
+   
+}

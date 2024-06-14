@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        legend{
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            color: blue;
+            font-weight: bolder;
+            
+        }
+        fieldset{
+            width:400px;
+            margin-left: 35%;
+        }
+        .ad{
+            background-color: rgb(164, 164, 226);
+        }
+        .mj{
+            background-color: blue;
+            width: 32.9%;
+            text-align: center;
+            margin-left: 24.9px;
+            color: white;
+        }
+        .ac{
+            text-align: center;
+        }
+      
+    </style>
+</head>
+<body class="ad" id="ads">
+    <div class="bu">
+        <a href="/dashboard.html#das"><i class="bi bi-house-door-fill">DASHBOARD</i></a>
+        <a href="/admission.html#ads"><i class="bi bi-mortarboard-fill">ADMISSION FORM</i></a>
+        <a href="/school.html#sch"><i class="bi bi-file-image">SCHOOL GALLERY</i></a>
+        <a href="/contact.html#con"><i class="bi bi-person-fill">CONTACT</i></a>
+        <a href="/about.html/#abo"><i class="bi bi-info-circle-fill">ABOUT US</i></a>
+    </div>
+    <div class="ac">
+        <marquee behavior="" direction=""><em>your children success is our goal.....</em></marquee>
+        <form action="">
+            <fieldset>
+                <legend>
+                    <em>SCHOOL FORM</em>
+                </legend>
+                <label for="SURNAME">SURNAME:</label><br>
+                <input type="text" required placeholder="surname" class="on" ><br>
+                <label for="FIRSTNAME">FIRST NAME:</label><br>
+                <input type="text" required placeholder="firstname" class="on" ><br>
+                <label for="FIRSTNAME" >OTHER NAMES:</label><br>
+                <input type="text" required placeholder="other names" class="on"><br>
+                <label for="PLACE OF BIRTH">PLACE OF BIRTH:</label><br>
+                <input type="text" required    placeholder="place of birth" class="on"><br>
+                <label for="DATE OF BIRTH">DATE OF BIRTH:</label><br>
+                <input type="DATE" required  class="on" ><br>
+                <label for="">NIN:</label> <br>
+                <input type="text" maxlength="11" class="on" placeholder="national identity no.." required> <br>
+                <label for="course">CLASS</label><br>
+                <select name="" id="" class="on">
+                    <option value="---">------</option>
+                    <option value="kg 1">KG1</option>
+                    <option value="kg 2">KG2</option>
+                    <option value="nur 1">NURSERY 1</option>
+                    <option value="nur 2">NURSERY 2</option>
+                    <option value="primary 1">PRIMARY 1</option>
+                    <option value="primary 2">PRIMARY 2</option>
+                    <option value="primary 3">PRIMARY 3</option>
+                    <option value="primary 4">PRIMARY 4</option>
+                    <option value="primary 5">PRIMARY 5</option>
+                    <option value="primary 6">PRIMARY 6</option>
+                </select> <br>
+                <label for="STATE OF">STATE OF ORIGIN:</label> <br>
+                <select name="" id="" class="on">
+                    <option value="">-------</option>
+                    <option value="abia">Abia</option>
+                    <option value="adamawa">Adamawa</option>
+                    <option value="akwaIbom">Akwa Ibom</option>
+                    <option value="anambra">Anambra</option>
+                    <option value="bauchi">Bauchi</option>
+                    <option value="bayelsa">Bayelsa</option>
+                    <option value="benue">Benue</option>
+                    <option value="borno">Borno</option>
+                    <option value="crossRiver">Cross River</option>
+                    <option value="delta">Delta</option>
+                    <option value="ebonyi">Ebonyi</option>
+                    <option value="edo">Edo</option>
+                    <option value="ekiti">Ekiti</option>
+                    <option value="enugu">Enugu</option>
+                    <option value="gombe">Gombe</option>
+                    <option value="imo">Imo</option>
+                    <option value="jigawa">Jigawa</option>
+                    <option value="kaduna">Kaduna</option>
+                    <option value="kano">Kano</option>
+                    <option value="katsina">Katsina</option>
+                    <option value="kebbi">Kebbi</option>
+                    <option value="kogi">Kogi</option>
+                    <option value="kwara">Kwara</option>
+                    <option value="lagos">Lagos</option>
+                    <option value="nasarawa">Nasarawa</option>
+                    <option value="niger">Niger</option>
+                    <option value="ogun">Ogun</option>
+                    <option value="ondo">Ondo</option>
+                    <option value="osun">Osun</option>
+                    <option value="oyo">Oyo</option>
+                    <option value="plateau">Plateau</option>
+                    <option value="rivers">Rivers</option>
+                    <option value="sokoto">Sokoto</option>
+                    <option value="taraba">Taraba</option>
+                    <option value="yobe">Yobe</option>
+                </select> <br>
+                <label for="ADDR">ADDRESS:</label> <br>
+                <input type="text" class="on" placeholder="no 16...."> <br>
+                <label for="emer">EMERGENCY CONTACT:</label> <br>
+                <input type="text" maxlength="11" required class="on" placeholder="parent or guardians no."> <br>
+                <label for="pa">FATHER NAME:</label> <br>
+                <input type="text" class="on" placeholder="mr"> <br>
+                <label for="fa">MOTHER NAME:</label> <br>
+                <input type="text" placeholder="mrs" class="on"> <br>
+                <label for="ge">GENDER:</label> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </fieldset>
+            <button class="mj">SUBMIT</button>
+        </form>
+    </div>
+ 
+</body>
+</html>
